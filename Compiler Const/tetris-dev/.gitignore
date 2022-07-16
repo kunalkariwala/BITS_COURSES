@@ -1,0 +1,11 @@
+# folders to ignore virtual env, vscode etc
+env/ 
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# C extensions
+*.so

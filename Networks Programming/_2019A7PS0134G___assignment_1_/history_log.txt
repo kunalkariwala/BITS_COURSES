@@ -1,0 +1,32 @@
+Script started on Wed Feb  9 23:35:37 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004hggcc CN_A1.c[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004h..a/ . ./a.out[?2004l
+From the parent process :- process with pid = 23753 just created a child with pid = 23754
+Parent Process is still waiting for the child process and can do anything
+From the child process :- process with pid = 23754 was just created by parent with pid = 23753
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Parent Process is still waiting for the child process and can do anything
+Child with pid = 23754 has exited with status of 0
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004hggcc CN_A13.c[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004h../a.out &[?2004l
+[1] 23820
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004hFrom the parent process :- process with pid = 23820 just created a child with pid = 23821
+From the child process :- process with pid = 23821 was just created by parent with pid = 23820
+pps[?2004l
+  PID TTY           TIME CMD
+11730 ttys000    0:00.10 -zsh
+21605 ttys001    0:00.38 /bin/zsh -l
+23524 ttys001    0:00.01 script history_log.txt
+23525 ttys002    0:00.20 /bin/zsh -i
+23820 ttys002    0:00.00 ./a.out
+23821 ttys002    0:00.00 (a.out)
+[1m[7m%[27m[1m[0m                                                                                                                                                        [0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K[?2004h
+[1]  + done       ./a.out
+[0m[27m[24m[Jkunalkariwala@kunals-MacBook-Air Operating Systems % [K

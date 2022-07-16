@@ -1,0 +1,23 @@
+Script started on Sat Apr 16 01:42:28 2022
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004h../server 4444[?2004l
+[+]Server is active on [0.0.0.0 : 4444]
+[+]Connection accepted from 192.168.29.199:60016
+[+]Thread at tid = 1830760448 recieved the filename as sample.pdf from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 3028 bytes
+[+] sample.pdf named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as text.txt from Client with ip:port as 192.168.29.199:60016 
+[+]Thread at tid = 1830760448 recieved the filename as image.png from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 172426 bytes
+[+] image.png named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as package.json from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 811 bytes
+[+] package.json named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as index.html from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 1148 bytes
+[+] index.html named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as pdf.pdf from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 22521 bytes
+[+] pdf.pdf named File sent.
+[+]Client with ip:port as 192.168.29.199:60016 has safely exited
+^C
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004h

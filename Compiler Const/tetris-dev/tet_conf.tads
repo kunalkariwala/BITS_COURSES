@@ -1,0 +1,31 @@
+// 
+//  _____ ___ ______  _____   _____ _____ ___________ _____ _____ 
+// |_   _/ _ \|  _  \/  ___| |_   _|  ___|_   _| ___ \_   _/  ___|
+//   | |/ /_\ \ | | |\ `--.    | | | |__   | | | |_/ / | | \ `--. 
+//   | ||  _  | | | | `--. \   | | |  __|  | | |    /  | |  `--. \
+//   | || | | | |/ / /\__/ /   | | | |___  | | | |\ \ _| |_/\__/ /
+//   \_/\_| |_/___/  \____/    \_/ \____/  \_/ \_| \_|\___/\____/ 
+//                                                                
+//
+
+board = [30,40];
+sound = ON;
+pieces = [{"L",#106b77}, {"I",#106b77}, {"O",#106b77}, {"J",#106b77}, {"Z",#106b77}, {"S",#106b77}, {"T",#106b77}];
+
+//key bindings
+rotate = "K_UP";
+go_left = "K_LEFT";
+go_right = "K_RIGHT";
+soft_drop = "K_DOWN";
+hard_drop = "K_SPACE";
+pause = "K_p";
+
+// Difficulty settings
+speed = 1;
+pga_bias = OFF;
+disco_mode = OFF; //epilepsy trigger warning!
+ghost_mode = ON;
+scoring = [0, 40, 100, 300, 1200];
+
+opening_msg = "Welcome! Press any key to begin.";
+ending_msg = "Game over!";

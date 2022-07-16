@@ -1,0 +1,65 @@
+Script started on Fri Apr 15 18:19:46 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/2019A7PS0134G_Project/servers[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 servers % [K[?2004hggcc -o server - ./server.c -lpthread[?2004l
+[1m./server.c:53:105: [0m[0;1;35mwarning: [0m[1mformat specifies type 'int' but the argument has type 'pthread_t' (aka 'struct _opaque_pthread_t *') [-Wformat][0m
+        printf("[+]Thread at tid = %d recieved the filename as %s from Client with ip:port as %s:%d \n",tid[index],globbuff,ip,port);
+[0;1;32m                                   ~~                                                                   ^~~~~~~~~~
+[0m[1m./server.c:79:1: [0m[0;1;35mwarning: [0m[1mnon-void function does not return a value [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/2019A7PS0134G_Project/servers[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 servers % [K[?2004h../server 4444[?2004l
+[+]Server is active on [0.0.0.0 : 4444]
+[+]Connection accepted from 192.168.29.199:50116
+[+]Connection accepted from 192.168.29.199:50118
+[+]Connection accepted from 192.168.29.199:50120
+[+]Connection accepted from 192.168.29.199:50122
+[+]Connection accepted from 192.168.29.199:50124
+[+]Client with ip:port as 192.168.29.199:50118 has safely exited
+[+]Client with ip:port as 192.168.29.199:50120 has safely exited
+[+]Client with ip:port as 192.168.29.199:50122 has safely exited
+[+]Client with ip:port as 192.168.29.199:50124 has safely exited
+[+]Connection accepted from 192.168.29.199:50108
+[+]Client with ip:port as 192.168.29.199:50108 has safely exited
+[+]Thread at tid = 1841885184 recieved the filename as Networkingtrends.txt from Client with ip:port as 192.168.29.199:50116 
+[+]Thread at tid = 1841885184 recieved the filename as README.txt from Client with ip:port as 192.168.29.199:50116 
+[+]Thread at tid = 1841885184 recieved the filename as blah.txt from Client with ip:port as 192.168.29.199:50116 
+[+]Client with ip:port as 192.168.29.199:50116 has safely exited
+[+]Connection accepted from 192.168.29.199:50128
+[+]Connection accepted from 192.168.29.199:50130
+[+]Connection accepted from 192.168.29.199:50132
+[+]Connection accepted from 192.168.29.199:50134
+[+]Connection accepted from 192.168.29.199:50136
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[+]Thread at tid = 1845899264 recieved the filename as  from Client with ip:port as 192.168.29.199:50130 
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/2019A7PS0134G_Project/servers[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 servers % [K[?2004hggcc -o server ./2 ./[1C[1C[1Cserver2.c[1m [0m[0m [?2004l
+[1m./server2.c:53:105: [0m[0;1;35mwarning: [0m[1mformat specifies type 'int' but the argument has type 'pthread_t' (aka 'struct _opaque_pthread_t *') [-Wformat][0m
+        printf("[+]Thread at tid = %d recieved the filename as %s from Client with ip:port as %s:%d \n",tid[index],globbuff,ip,port);
+[0;1;32m                                   ~~                                                                   ^~~~~~~~~~
+[0m[1m./server2.c:88:1: [0m[0;1;35mwarning: [0m[1mnon-void function does not return a value [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/2019A7PS0134G_Project/servers[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 servers % [K[?2004h../server2 4444[?2004l
+[+]Server is active on [0.0.0.0 : 4444]
+[+]Connection accepted from 127.0.0.1:60219
+[+]Thread at tid = 1843146752 recieved the filename as Networkingtrends.txt from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as Networkingtrends.txt from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as pdf.pdf from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as Networkingtrends.txt from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as A.cpp from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as image.png from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as package.json from Client with ip:port as 127.0.0.1:60219 
+[+]Thread at tid = 1843146752 recieved the filename as README.md from Client with ip:port as 127.0.0.1:60219 

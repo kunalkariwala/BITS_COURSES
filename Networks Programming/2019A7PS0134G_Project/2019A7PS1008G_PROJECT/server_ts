@@ -1,0 +1,56 @@
+Script started on 2022-04-15 19:48:35+05:30 [TERM="linux" TTY="/dev/pts/15" COLUMNS="165" LINES="43"]
+bhargav@bhargav-kk:.../assignments/project$ gcc server.c -o server/server -lpthread
+bhargav@bhargav-kk:.../assignments/project$ gcc client.c -o client/client
+bhargav@bhargav-kk:.../assignments/project$ cd server
+bhargav@bhargav-kk:.../project/server$ ./server 6789
+[*] New socket created successfully.
+[*] Socket bound successfully to address: 127.0.1.1:6789
+[*] Now listening for new connections...
+
+[*] Accepted connection from client at 127.0.0.1:56388
+[140356592391936] Waiting for file name from client at 127.0.0.1:56388
+
+[*] Accepted connection from client at 127.0.0.1:56390
+[140356583999232] Waiting for file name from client at 127.0.0.1:56390
+
+[*] Accepted connection from client at 127.0.0.1:56392
+[140356575606528] Waiting for file name from client at 127.0.0.1:56392
+
+[*] Accepted connection from client at 127.0.0.1:56394
+[140356567213824] Waiting for file name from client at 127.0.0.1:56394
+
+[*] Accepted connection from client at 127.0.0.1:56396
+[140356558821120] Waiting for file name from client at 127.0.0.1:56396
+[*] Rejecting connection. Capacity full.
+[140356592391936] File name: file1.txt
+[140356592391936] Bytes read: 1000
+[140356592391936] File sent.
+[140356583999232] File name: file2.txt
+[140356583999232] Bytes read: 1000
+[140356583999232] File sent.
+[140356575606528] File name: file3.txt
+[140356575606528] Bytes read: 1000
+[140356575606528] File sent.
+[140356567213824] File name: file4.txt
+[140356567213824] Bytes read: 1000
+[140356567213824] File sent.
+[140356558821120] File name: file5.txt
+[140356558821120] Bytes read: 1000
+[140356558821120] File sent.
+[140356592391936] Closed connection with 127.0.0.1:56388
+
+[*] Accepted connection from client at 127.0.0.1:56400
+[140356592391936] Waiting for file name from client at 127.0.0.1:56400
+[140356592391936] File name: file6.txt
+[140356592391936] Bytes read: 1000
+[140356592391936] File sent.
+[140356592391936] Closed connection with 127.0.0.1:56400
+[140356583999232] Closed connection with 127.0.0.1:56390
+[140356575606528] Closed connection with 127.0.0.1:56392
+[140356567213824] Closed connection with 127.0.0.1:56394
+[140356558821120] Closed connection with 127.0.0.1:56396
+^C
+bhargav@bhargav-kk:.../project/server$ exit
+exit
+
+Script done on 2022-04-15 19:52:51+05:30 [COMMAND_EXIT_CODE="130"]

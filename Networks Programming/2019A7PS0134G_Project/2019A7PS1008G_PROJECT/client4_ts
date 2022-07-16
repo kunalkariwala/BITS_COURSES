@@ -1,0 +1,14 @@
+Script started on 2022-04-15 19:50:40+05:30 [TERM="linux" TTY="/dev/pts/27" COLUMNS="165" LINES="43"]
+bhargav@bhargav-kk:.../assignments/project$ cd client && ./client 127.0.1.1 6789
+[*] New socket created successfully.
+[*] Connected to server at: 127.0.1.1:6789
+[server] ACK
+[*] Enter file name: file4.txt
+[server] File found.
+[server] Bytes: 1000
+[*] Enter file name: quit
+[*] Connection closed.
+bhargav@bhargav-kk:.../project/client$ exit
+exit
+
+Script done on 2022-04-15 19:52:24+05:30 [COMMAND_EXIT_CODE="0"]

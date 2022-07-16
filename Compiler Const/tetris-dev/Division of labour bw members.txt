@@ -1,0 +1,3 @@
+Till now everyone in the team has contributed to all tasks.
+We are yet to assign specific tasks to individuals on the basis of domain.
+There will be further clarity on how to do divide the tasks when we reach in the next phase of the compiler design.

@@ -1,0 +1,107 @@
+Script started on Wed Mar 30 21:12:40 2022
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h../server 4444[?2004l
+
+[+]Server is active on [127.0.0.1: 4444]
+[+]Connection accepted from 127.0.0.1:51467
+[+]Connection accepted from 127.0.0.1:51468
+[+]Connection accepted from 127.0.0.1:51469
+[+]Connection accepted from 127.0.0.1:51470
+[+]Connection accepted from 127.0.0.1:51471
+[+]Client with ip:port as 127.0.0.1:51467 sent : Message from client 1
+[+]Client with ip:port as 127.0.0.1:51468 sent : message from client 2
+[+]Client with ip:port as 127.0.0.1:51469 sent : message from client 3
+[+]Client with ip:port as 127.0.0.1:51470 sent : message from client 4
+[+]Client with ip:port as 127.0.0.1:51471 sent : message from client 5
+[+]Client with ip:port as 127.0.0.1:51469 sent : message from client 3 again
+[+]Client with ip:port as 127.0.0.1:51469 sent : and again
+[+]Client with ip:port as 127.0.0.1:51468 sent : and agaiin from client 2
+[+]Client with ip:port as 127.0.0.1:51467 sent : okay i have to quit now
+[+]Client with ip:port as 127.0.0.1:51467 has safely exited
+[+]Client with ip:port as 127.0.0.1:51468 sent : i will also quit now
+[+]Client with ip:port as 127.0.0.1:51468 has safely exited
+[+]Connection accepted from 127.0.0.1:51477
+/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h[1m[7m%[27m[1m[0m                                                                                                                
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h/./[1Cclient 1[1m[7m%[27m[1m[0m                                                                                        
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h[1m[7m%[27m[1m[0m                                                                                                                
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h27.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+../client 127.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+../client 127.00 .0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+../client 127.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+../client 127.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+../client 127.0.0.1 4444[?2004l
+
+[-]Conncection refused! Server is full
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h../client 127.0.0.1 4444[?2004l
+
+[-]Conncection refused! Server is full
+[1m[7m%[27m[1m[0m                                                                                                                
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004hMessage from client 2 1
+[+]Enter any string, type quit if you want to disconnect
+message from client 2
+[+]Enter any string, type quit if you want to disconnect
+message from client 3
+[+]Enter any string, type quit if you want to disconnect
+message from client 3 g agan in
+[+]Enter any string, type quit if you want to disconnect
+and again
+[+]Enter any string, type quit if you want to disconnect
+message from client 4
+[+]Enter any string, type quit if you want to disconnect
+message from client 5
+[+]Enter any string, type quit if you want to disconnect
+okay u and agai iin from client 2
+[+]Enter any string, type quit if you want to disconnect
+i have to quit now
+[+]Enter any string, type quit if you want to disconnect
+quit
+[1m[7m%[27m[1m[0m                                                                                                                 
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004hi will also quit now
+[+]Enter any string, type quit if you want to disconnect
+quit
+[1m[7m%[27m[1m[0m                                                                                                                
+ 
+]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Lab7%20Final
+[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 Lab7 Final % [K[?2004h../client 127.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+feels good to be allowed 
+[+]Enter any string, type quit if you want to disconnect
+../client 127.0.0.1 4444[?2004l
+
+[+]Connection Accepted!
+[+]Enter any string, type quit if you want to disconnect
+agreed 
+[+]Enter any string, type quit if you want to disconnect

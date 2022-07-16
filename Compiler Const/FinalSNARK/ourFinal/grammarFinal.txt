@@ -1,0 +1,52 @@
+expr            : expr expr
+                | assign_expr EOS | EOL
+				| COMMENT
+________________________________________________________________________________________________
+ 
+assign_expr     : color_assign | color_tup_assign | num_assign | color_arr_assign | num_arr_assign | bool_assign
+________________________________________________________________________________________________
+
+color_assign : COLOR_VAR ASSIGN COLOR | SCORE_COLOR ASSIGN COLOR | 
+                SCREEN_COLOR ASSIGN COLOR | BOUNDARY_COLOR ASSIGN COLOR | BORDER_COLOR ASSIGN COLOR
+
+color_tup_assign : COLOR_VAR ASSIGN color_tup | SCORE_COLOR ASSIGN color_tup | SCREEN_COLOR ASSIGN color_tup 
+                    BOUNDARY_COLOR ASSIGN color_tup | BORDER_COLOR ASSIGN color_tup
+
+color_arr_assign : TETCOLORS ASSIGN color_arr
+________________________________________________________________________________________________
+
+bool_assign : bool_var ASSIGN BOOL
+
+bool_var : SINGLE_PLAYER 
+________________________________________________________________________________________________
+
+
+num_arr_assign : POINTS ASSIGN num_arr
+
+num_assign :  block_size_assign | border_assign | row_assign | col_assign | font_size_assign | tick_int_assign | delay_assign | repeat_assign
+              speed_assign | border_thick_assign | score_assign | screen_height_ass | screen_width_ass | screen_size_ass
+
+block_size_assign : BLOCK_SIZE ASSIGN NUMBER
+border_assign : BORDER ASSIGN NUMBER
+row_assign : ROWS ASSIGN NUMBER
+col_assign : COLS ASSIGN NUMBER
+font_size_assign : FONT_SIZE ASSIGN NUMBER
+tick_int_assign : TICK_INTERVAL ASSIGN NUMBER
+delay_assign : DELAY ASSIGN NUMBER
+repeat_assign : REPEAT ASSIGN NUMBER
+speed_assign : SPEED ASSIGN NUMBER | SPEED ASSIGN DECIMAL_NUMBER
+border_thick_assign : BORDER_THICKNESS ASSIGN NUMBER
+score_assign : SCORE ASSIGN NUMBER
+screen_height_ass : SCREEN_HEIGHT ASSIGN NUMBER
+screen_width_ass : SCREEN_WIDTH ASSIGN NUMBER
+screen_size_ass : SCREEN_SIZE ASSIGN NUMBER
+________________________________________________________________________________________________
+
+color_tup : L_PAREN NUMBER COMMA NUMBER COMMA NUMBER R_PAREN
+
+color_arr : L_SQUARE color_list R_SQUARE
+color_list : color_list COMMA COLOR | COLOR
+
+num_arr : L_SQUARE num_list R_SQUARE
+num_list : num_list COMMA NUMBER | NUMBER
+[0-9]+\.[0-9]*|\.[0-9]+

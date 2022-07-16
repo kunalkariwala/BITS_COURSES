@@ -1,0 +1,19 @@
+rows = 30 - 10 - 10;
+columns = 40;
+tetriminos = [(#ffffff,L_TETRMINO), (#AAAAAA,I_TETRMINO), (#101010,O_TETRMINO), (#101010,J_TETRMINO), (#202020,Z_TETRMINO), (#303030,S_TETRMINO), (#404040,T_TETRMINO)];
+
+//key bindings
+rotate = "K_UP";
+go_left = "K_LEFT";
+go_right = "K_RIGHT";
+soft_drop = "K_DOWN";
+hard_drop = "K_SPACE";
+pause = "K_p";
+
+// Difficulty settings
+speed = 1;
+SINGLE_PLAYER = TRUE;
+scoring = [0, 40, 100, 300, 1200];
+
+opening_msg = "Welcome! Press any key to begin.";
+ending_msg = "Game over!";

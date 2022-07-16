@@ -1,0 +1,45 @@
+expr            : expr expr
+                | assign_expr EOS | EOL
+				| COMMENT
+ 
+________________________________________________________________________________________________
+
+assign_expr     : bool_assign | num_assign | str_assign | array_assign
+ 
+________________________________________________________________________________________________
+ 
+bool_assign     : bool_var ASSIGN BOOL
+ 
+bool_var        : SOUND | PGA_BIAS | GHOST_MODE | DISCO_MODE
+ 
+________________________________________________________________________________________________
+ 
+num_assign      : num_var ASSIGN NUM | PLUS NUM 
+
+6 + 7 + 8
+ 
+num_var         : SPEED
+ 
+________________________________________________________________________________________________
+ 
+str_assign      : str_var ASSIGN STR
+ 
+str_var         : K_KEY | OPENING_MSG | ENDING_MSG
+ 
+________________________________________________________________________________________________
+ 
+array_assign    : pieces_set | board_set | scoring_set
+ 
+board_set       : BOARD ASSIGN OPEN_BRACKET number_list CLOSE_BRACKET
+ 
+scoring_set     : SCORING ASSIGN OPEN_BRACKET number_list CLOSE_BRACKET
+ 
+number_list     : number_list COMMA NUM | NUM
+ 
+pieces_set      : PCS ASSIGN OPEN_BRACKET piece_list CLOSE_BRACKET
+ 
+piece_list      : piece_list COMMA tuple | tuple
+ 
+tuple          : OPEN_BRACKET STR COMMA COLOR CLOSE_BRACKET
+
+

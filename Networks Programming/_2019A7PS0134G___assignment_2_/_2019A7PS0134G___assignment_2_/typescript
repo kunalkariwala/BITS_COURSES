@@ -1,0 +1,14 @@
+Script started on Mon Feb 28 00:35:40 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[J(base) kunalkariwala@kunals-MacBook-Air _2019A7PS0134G___assignment_2_ % [K[?2004hggcc NP_A2.c[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[J(base) kunalkariwala@kunals-MacBook-Air _2019A7PS0134G___assignment_2_ % [K[?2004h../a.out[?2004l
+From the parent process :- process with pid = 17790 just created a child with pid = 17791
+From the child process :- process with pid = 17791 was just created by parent with pid = 17790
+From the parent process : Kindly enter an integer:-
+123
+From the child process : The integer enterred into the parent process is 123
+From the child process : Kindly enter an integer:-
+456
+From the parent process : The integer enterred into the child process is 456
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[J(base) kunalkariwala@kunals-MacBook-Air _2019A7PS0134G___assignment_2_ % [K[?2004heexit[?2004l
+
+Script done on Mon Feb 28 00:36:01 2022

@@ -1,0 +1,64 @@
+Script started on Sat Apr 16 01:31:07 2022
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004hggcc -o server ./server.c -lpthread[?2004l
+[1m./server.c:52:105: [0m[0;1;35mwarning: [0m[1mformat specifies type 'int' but the argument has type 'pthread_t' (aka 'struct _opaque_pthread_t *') [-Wformat][0m
+        printf("[+]Thread at tid = %d recieved the filename as %s from Client with ip:port as %s:%d \n",tid[index],globbuff,ip,port);
+[0;1;32m                                   ~~                                                                   ^~~~~~~~~~
+[0m[1m./server.c:61:58: [0m[0;1;35mwarning: [0m[1mformat specifies type 'int' but the argument has type 'pthread_t _Nonnull' (aka 'struct _opaque_pthread_t *') [-Wformat][0m
+          printf("[+]thread at id %d read: %ld bytes\n", pthread_self(), bytes_read);
+[0;1;32m                                  ~~                     ^~~~~~~~~~~~~~
+[0m[1m./server.c:71:57: [0m[0;1;35mwarning: [0m[1mdata argument not used by format string [-Wformat-extra-args][0m
+          printf("[+] %s named File sent.\n", globbuff ,pthread_self());
+[0;1;32m                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~            ^
+[0m[1m./server.c:77:1: [0m[0;1;35mwarning: [0m[1mnon-void function does not return a value [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m4 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004h..server     .  ../server 4444[?2004l
+[+]Server is active on [0.0.0.0 : 4444]
+[+]Connection accepted from 127.0.0.1:62710
+[+]Connection accepted from 127.0.0.1:62711
+[+]Connection accepted from 127.0.0.1:62712
+[+]Connection accepted from 127.0.0.1:62713
+[+]Connection accepted from 127.0.0.1:62714
+[+]Thread at tid = 1840967680 recieved the filename as sample.pdf from Client with ip:port as 127.0.0.1:62710 
+[+]thread at id 1840967680 read: 3028 bytes
+[+] sample.pdf named File sent.
+[+]Thread at tid = 1840967680 recieved the filename as index.html from Client with ip:port as 127.0.0.1:62710 
+[+]thread at id 1840967680 read: 1148 bytes
+[+] index.html named File sent.
+[+]Thread at tid = 1840967680 recieved the filename as A.cpp from Client with ip:port as 127.0.0.1:62710 
+[+]thread at id 1840967680 read: 560 bytes
+[+] A.cpp named File sent.
+[+]Thread at tid = 1840967680 recieved the filename as image.png from Client with ip:port as 127.0.0.1:62710 
+[+]thread at id 1840967680 read: 172426 bytes
+[+] image.png named File sent.
+[+]Thread at tid = 1840967680 recieved the filename as package.json from Client with ip:port as 127.0.0.1:62710 
+[+]thread at id 1840967680 read: 811 bytes
+[+] package.json named File sent.
+sct   script tscript
+^C
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004hcclear[?2004l
+[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004hsscript serverscript2[?2004l
+Script started, output file is serverscript2
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004h../server 4444[?2004l
+[+]Server is active on [0.0.0.0 : 4444]
+[+]Connection accepted from 192.168.29.199:60016
+[+]Thread at tid = 1830760448 recieved the filename as sample.pdf from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 3028 bytes
+[+] sample.pdf named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as text.txt from Client with ip:port as 192.168.29.199:60016 
+[+]Thread at tid = 1830760448 recieved the filename as image.png from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 172426 bytes
+[+] image.png named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as package.json from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 811 bytes
+[+] package.json named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as index.html from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 1148 bytes
+[+] index.html named File sent.
+[+]Thread at tid = 1830760448 recieved the filename as pdf.pdf from Client with ip:port as 192.168.29.199:60016 
+[+]thread at id 1830760448 read: 22521 bytes
+[+] pdf.pdf named File sent.
+[+]Client with ip:port as 192.168.29.199:60016 has safely exited
+^C
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://Lmaoo-1.local/Users/kunalkariwala/Desktop/Networks%20Programming/Project_final/server[0m[27m[24m[J(base) kunalkariwala@Lmaoo-1 server % [K[?2004h

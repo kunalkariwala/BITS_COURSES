@@ -1,0 +1,58 @@
+expr            : expr expr
+                | assign_expr EOS | EOL
+				| COMMENT
+
+expr2       : expr2 PLUS term
+           | expr2 MINUS term
+           | expr2 TIMES term
+           | expr2 DIVIDE term
+           | term
+
+term       : term MULTIPLY factor
+           | term DIVIDES factor
+           | factor
+
+factor     : NUM
+           | ( expr2 )
+________________________________________________________________________________________________
+ 
+assign_expr     : bool_assign | num_assign | str_assign | array_assign
+ 
+________________________________________________________________________________________________
+ 
+bool_assign     : bool_var ASSIGN BOOL
+ 
+bool_var        : SINGLE_PLAYER 
+ 
+________________________________________________________________________________________________
+ 
+num_assign      : num_var ASSIGN NUM | num_var ASSIGN expr2
+ 
+num_var         : SPEED | ROWS | COLUMNS
+ 
+________________________________________________________________________________________________
+ 
+str_assign      : str_var ASSIGN STR
+ 
+str_var         : K_KEY | OPENING_MSG | ENDING_MSG
+
+K_key : ROTATE_ACW | ROTATE_CW | MOVE_LEFT | MOVE_RIGHT | PAUSE | DROPSPEED | HARDROP | SOFTDROP
+ 
+________________________________________________________________________________________________
+ 
+array_assign    : pieces_set | board_set | scoring_set
+ 
+board_set       : BOARD ASSIGN OPEN_BRACKET number_list CLOSE_BRACKET
+ 
+scoring_set     : SCORING ASSIGN OPEN_BRACKET number_list CLOSE_BRACKET
+ 
+number_list     : number_list COMMA NUM | NUM
+ 
+pieces_set      : PCS ASSIGN OPEN_BRACKET piece_list CLOSE_BRACKET
+ 
+piece_list      : piece_list COMMA tuple | tuple
+ 
+tuple          : OPEN_BRACKET STR COMMA COLOR CLOSE_BRACKET
+tuple          : OPEN_BRACKET TETTYPE COMMA COLOR CLOSE_BRACKET
+
+TETTYPE : L_TETRIMNO | O_TETRIMNO | I_TETRIMNO | T_TETRIMNO | J_TETRIMNO | S_TETRIMNO | Z_TETRIMNO 
